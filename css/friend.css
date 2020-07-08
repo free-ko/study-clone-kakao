@@ -6,10 +6,48 @@
 
 .friend .friend__avatar {
   width: 50px;
-  border-radius: 35%;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .friend__avatar.g-avatar {
   /* 이건 이 class를 둘 다 가진 element에 적용된 다는 의미임 (띄어씌기 하면 안됨) 즉 .friend__avatar && .g-avatar  */
   width: 70px;
+  height: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Friend Screen */
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+/* Chat Screen */
+.friend__content .friend__bottom-text {
+  font-size: 14px;
 }

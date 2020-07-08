@@ -5,12 +5,12 @@
 @import "nav-bar.css";
 @import "friend.css";
 
+/* Default Valuce */
+
 * {
   box-sizing: border-box;
   /*nav-bar의 content 내용이 안보였다가 설정해주니 보이게 됨 그 이유는 패딩값을 줘도 콘텐츠를 보일 수 있도록 위에 설정을 했기 때문임*/
 }
-
-/* Default Valuce */
 
 body {
   background-color: white;
@@ -22,4 +22,5 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
