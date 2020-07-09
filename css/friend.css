@@ -47,6 +47,23 @@
   font-size: 12px;
 }
 
+.friend .friend__now-listening {
+  border: 2px solid violet;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.friend__now-listening span,
+.friend__now-listening i {
+  opacity: 0.6;
+}
+
+.friend__now-listening i {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
 /* Chat Screen */
 .friend__content .friend__bottom-text {
   font-size: 14px;
