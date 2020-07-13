@@ -2,6 +2,7 @@
   background-color: white;
   padding: 5px 0px;
   position: fixed;
+  z-index: 2;
   top: 0;
   width: 100%;
   box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
@@ -142,6 +143,22 @@
   height: 50px;
   border-radius: 50%;
   margin-right: 15px;
+}
+
+.incoming-message img:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
 }
 
 .sent-message {
